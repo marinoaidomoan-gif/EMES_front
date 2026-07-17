@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Actualités — EMES SARL</title>
+<meta name="description" content="Événements, publications et annonces de EMES SARL." />
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<nav class="nav"><div class="nav__inner">
+  <a href="./index.html" class="brand"><span class="brand__mark"><span class="brand__diamond"></span></span><span class="brand__name">EMES</span></a>
+  <button class="nav__toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  <div class="nav__links">
+    <a href="./index.html">Accueil</a><a href="./service.html">Services</a><a href="./projet.html">Projets</a>
+    <a href="./formation.html">Formations</a><a href="./actualite.html" class="active">Actualités</a><a href="./about.html">À propos</a><a href="./contact.html">Contact</a>
+  </div>
+  <a href="./contact.html" class="btn btn--primary btn--sm">Nous contacter</a>
+</div></nav>
+
+<header class="hero hero--sm">
+  <div class="hero__orb hero__orb--1"></div><div class="hero__orb hero__orb--2"></div>
+  <div class="hero__inner container">
+    <span class="eyebrow">[ News & événements ]</span>
+    <h1 class="hero__title">Nos <span class="accent">actualités</span>.</h1>
+    <p class="hero__sub">Événements, publications, partenariats et annonces — restez à jour de l'écosystème cybersécurité au Bénin.</p>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="section__head">
+    <h2>Dernières publications</h2>
+    <div class="section__rule"></div>
+    <p class="section__lead">Suivez nos initiatives et l'évolution du secteur en Afrique de l'Ouest.</p>
+  </div>
+  <div class="grid grid--3" id="news-grid"></div>
+</section>
+
+<footer class="footer"><div class="container">
+  <div class="newsletter reveal" style="margin-bottom:60px">
+    <div><h3>Restez informés</h3><p>Recevez nos actualités, alertes et publications cybersécurité — 1 email par mois.</p></div>
+    <form onsubmit="event.preventDefault(); this.reset(); alert('Merci pour votre inscription !');">
+      <input type="email" placeholder="Votre email professionnel" required /><button type="submit">S'inscrire</button>
+    </form>
+  </div>
+  <div class="footer__grid">
+    <div><div class="brand"><span class="brand__mark"><span class="brand__diamond"></span></span><span class="brand__name">EMES SARL</span></div>
+      <p>Cybersécurité, génie logiciel, réseaux et formation. Basés à Cotonou, au service de l'Afrique de l'Ouest.</p>
+      <div class="footer__socials"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"><i class="fa-brands fa-github"></i></a></div>
+    </div>
+    <div><h5>Navigation</h5><ul><li><a href="./index.html">Accueil</a></li><li><a href="./service.html">Services</a></li><li><a href="./projet.html">Projets</a></li><li><a href="./formation.html">Formations</a></li><li><a href="./actualite.html">Actualités</a></li></ul></div>
+    <div><h5>Entreprise</h5><ul><li><a href="./about.html">À propos</a></li><li><a href="./contact.html">Contact</a></li><li><a href="#">Carrières</a></li><li><a href="#">Partenaires</a></li></ul></div>
+    <div><h5>Contact</h5><ul><li><i class="fa-solid fa-location-dot"></i> Gbegamey, Cotonou</li><li><i class="fa-solid fa-envelope"></i> emes@emes.bj</li><li><i class="fa-solid fa-phone"></i> +229 95 22 20 73</li></ul></div>
+  </div>
+  <div class="footer__bottom"><p>© 2026 EMES SARL. Tous droits réservés.</p><div style="display:flex;gap:20px"><a href="#">Mentions légales</a><a href="#">Confidentialité</a></div></div>
+</div></footer>
+
+<script src="./script.js"></script>
+</body></html>
